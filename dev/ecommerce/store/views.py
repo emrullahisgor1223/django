@@ -16,9 +16,9 @@ def store(request):
 
 
 def categories(request):
-    all_categories=Category.objects.all
+    all_categories=Category.objects.all()
 
-    return{'all_categories':all_categories}
+    return {'all_categories':all_categories}
 
 
 
